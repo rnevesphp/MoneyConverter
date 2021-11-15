@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Mulish:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap');
+/* FONTS
+Baloo Tamma 2
+Mulish
+Roboto Condensed
+*/ 
+.moneda1 {
+   padding-bottom: 1rem;
+}
+.moneda2 { 
+   padding-bottom: 1rem;
+}
+.container {
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #00ecff;
+   height: 98vh;
+}
+input::-webkit-input-placeholder { 
+   color: azure; 
+   font-weight: bolder; 
+   
+}
+input {
+   font-size: 16px;
+   padding-bottom: .9rem;
+   text-align: center;
+   font-family: "Mulish";
+   height: 30px;
+   width: 313px;
+   border: 1px solid;
+   border-radius: 2px;
+   color: azure;
+   background: -webkit-linear-gradient(to right, #002670 ,#4f3ca0 ) ;
+   background: linear-gradient(to left, #002670 ,#4f3ca0 );
+}
+div span#valorIntr{
+   padding-top: 3rem;
+   padding-bottom: .8rem;
+   font-family: "Roboto Condensed";
+   font-weight: bolder;
+}
+div span#DE { 
+   padding-bottom: .3rem;
+   font-family: "Roboto Condensed";
+   font-weight: bolder;
+}
+div span#A { 
+   padding-bottom: .3rem;
+   font-family: "Roboto Condensed";
+   font-weight: bolder;
+}
+.btn { 
+   background: #6a3093;
+   background: -webkit-linear-gradient(to right, #002670 ,#4f3ca0 ) ;
+   background: linear-gradient(to left, #002670 ,#4f3ca0 );
+   font-family: "Baloo Tamma 2";
+   font-size: 1rem;
+   color: #eee;
+   border-radius: 2px;
+   border: none;
+   box-shadow: 0 .1rem .8rem rgba(0, 0, 0, alpha);
+   cursor: pointer;
+}
+button #convertir{
+   margin-top: 4rem;
+}
+.resultado p#resultadoFinal {
+   font-family: "Mulish";
+   color: azure;
+   width: 313px;
+   height: 30px;
+   border: 1px solid black;
+   border-radius: 2px;
+   text-align: center;
+   background: -webkit-linear-gradient(to right, #002670 ,#4f3ca0 ) ;
+   background: linear-gradient(to left, #002670 ,#4f3ca0 );
+}
+/* COLORS
+.color1 {color: #002670;}
+.color2 {color: #4f3ca0;}
+.color3 {color: #00b9ff;}
+.color4 {color: #00ecff;}
+.color5 {color: #4affff;}
+*/
